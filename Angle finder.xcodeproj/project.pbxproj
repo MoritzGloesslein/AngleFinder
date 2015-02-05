@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5D4CBD11A840B5A00C7C8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4CBD01A840B5A00C7C8B9 /* AppDelegate.swift */; };
+		C5D4CBD31A840B5A00C7C8B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4CBD21A840B5A00C7C8B9 /* ViewController.swift */; };
+		C5D4CBD61A840B5A00C7C8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D4CBD41A840B5A00C7C8B9 /* Main.storyboard */; };
+		C5D4CBD81A840B5A00C7C8B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D4CBD71A840B5A00C7C8B9 /* Images.xcassets */; };
+		C5D4CBDB1A840B5A00C7C8B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D4CBD91A840B5A00C7C8B9 /* LaunchScreen.xib */; };
+		C5D4CBE71A840B5A00C7C8B9 /* Angle_finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4CBE61A840B5A00C7C8B9 /* Angle_finderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D4CBE11A840B5A00C7C8B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D4CBC31A840B5A00C7C8B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D4CBCA1A840B5A00C7C8B9;
+			remoteInfo = "Angle finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5D4CBCB1A840B5A00C7C8B9 /* Angle finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angle finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D4CBCF1A840B5A00C7C8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D4CBD01A840B5A00C7C8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5D4CBD21A840B5A00C7C8B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5D4CBD51A840B5A00C7C8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5D4CBD71A840B5A00C7C8B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5D4CBDA1A840B5A00C7C8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C5D4CBE01A840B5A00C7C8B9 /* Angle finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Angle finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D4CBE51A840B5A00C7C8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D4CBE61A840B5A00C7C8B9 /* Angle_finderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angle_finderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D4CBC81A840B5A00C7C8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D4CBDD1A840B5A00C7C8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5D4CBC21A840B5A00C7C8B9 = {
+			isa = PBXGroup;
+			children = (
+				C5D4CBCD1A840B5A00C7C8B9 /* Angle finder */,
+				C5D4CBE31A840B5A00C7C8B9 /* Angle finderTests */,
+				C5D4CBCC1A840B5A00C7C8B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D4CBCC1A840B5A00C7C8B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D4CBCB1A840B5A00C7C8B9 /* Angle finder.app */,
+				C5D4CBE01A840B5A00C7C8B9 /* Angle finderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D4CBCD1A840B5A00C7C8B9 /* Angle finder */ = {
+			isa = PBXGroup;
+			children = (
+				C5D4CBD01A840B5A00C7C8B9 /* AppDelegate.swift */,
+				C5D4CBD21A840B5A00C7C8B9 /* ViewController.swift */,
+				C5D4CBD41A840B5A00C7C8B9 /* Main.storyboard */,
+				C5D4CBD71A840B5A00C7C8B9 /* Images.xcassets */,
+				C5D4CBD91A840B5A00C7C8B9 /* LaunchScreen.xib */,
+				C5D4CBCE1A840B5A00C7C8B9 /* Supporting Files */,
+			);
+			path = "Angle finder";
+			sourceTree = "<group>";
+		};
+		C5D4CBCE1A840B5A00C7C8B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D4CBCF1A840B5A00C7C8B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D4CBE31A840B5A00C7C8B9 /* Angle finderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D4CBE61A840B5A00C7C8B9 /* Angle_finderTests.swift */,
+				C5D4CBE41A840B5A00C7C8B9 /* Supporting Files */,
+			);
+			path = "Angle finderTests";
+			sourceTree = "<group>";
+		};
+		C5D4CBE41A840B5A00C7C8B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D4CBE51A840B5A00C7C8B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D4CBCA1A840B5A00C7C8B9 /* Angle finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D4CBEA1A840B5A00C7C8B9 /* Build configuration list for PBXNativeTarget "Angle finder" */;
+			buildPhases = (
+				C5D4CBC71A840B5A00C7C8B9 /* Sources */,
+				C5D4CBC81A840B5A00C7C8B9 /* Frameworks */,
+				C5D4CBC91A840B5A00C7C8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Angle finder";
+			productName = "Angle finder";
+			productReference = C5D4CBCB1A840B5A00C7C8B9 /* Angle finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5D4CBDF1A840B5A00C7C8B9 /* Angle finderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D4CBED1A840B5A00C7C8B9 /* Build configuration list for PBXNativeTarget "Angle finderTests" */;
+			buildPhases = (
+				C5D4CBDC1A840B5A00C7C8B9 /* Sources */,
+				C5D4CBDD1A840B5A00C7C8B9 /* Frameworks */,
+				C5D4CBDE1A840B5A00C7C8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D4CBE21A840B5A00C7C8B9 /* PBXTargetDependency */,
+			);
+			name = "Angle finderTests";
+			productName = "Angle finderTests";
+			productReference = C5D4CBE01A840B5A00C7C8B9 /* Angle finderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D4CBC31A840B5A00C7C8B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Moritz Glößlein";
+				TargetAttributes = {
+					C5D4CBCA1A840B5A00C7C8B9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C5D4CBDF1A840B5A00C7C8B9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C5D4CBCA1A840B5A00C7C8B9;
+					};
+				};
+			};
+			buildConfigurationList = C5D4CBC61A840B5A00C7C8B9 /* Build configuration list for PBXProject "Angle finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D4CBC21A840B5A00C7C8B9;
+			productRefGroup = C5D4CBCC1A840B5A00C7C8B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D4CBCA1A840B5A00C7C8B9 /* Angle finder */,
+				C5D4CBDF1A840B5A00C7C8B9 /* Angle finderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D4CBC91A840B5A00C7C8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D4CBD61A840B5A00C7C8B9 /* Main.storyboard in Resources */,
+				C5D4CBDB1A840B5A00C7C8B9 /* LaunchScreen.xib in Resources */,
+				C5D4CBD81A840B5A00C7C8B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D4CBDE1A840B5A00C7C8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D4CBC71A840B5A00C7C8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D4CBD31A840B5A00C7C8B9 /* ViewController.swift in Sources */,
+				C5D4CBD11A840B5A00C7C8B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D4CBDC1A840B5A00C7C8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D4CBE71A840B5A00C7C8B9 /* Angle_finderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5D4CBE21A840B5A00C7C8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D4CBCA1A840B5A00C7C8B9 /* Angle finder */;
+			targetProxy = C5D4CBE11A840B5A00C7C8B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5D4CBD41A840B5A00C7C8B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D4CBD51A840B5A00C7C8B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5D4CBD91A840B5A00C7C8B9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D4CBDA1A840B5A00C7C8B9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5D4CBE81A840B5A00C7C8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5D4CBE91A840B5A00C7C8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D4CBEB1A840B5A00C7C8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Angle finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5D4CBEC1A840B5A00C7C8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Angle finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5D4CBEE1A840B5A00C7C8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Angle finderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angle finder.app/Angle finder";
+			};
+			name = Debug;
+		};
+		C5D4CBEF1A840B5A00C7C8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Angle finderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angle finder.app/Angle finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D4CBC61A840B5A00C7C8B9 /* Build configuration list for PBXProject "Angle finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D4CBE81A840B5A00C7C8B9 /* Debug */,
+				C5D4CBE91A840B5A00C7C8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D4CBEA1A840B5A00C7C8B9 /* Build configuration list for PBXNativeTarget "Angle finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D4CBEB1A840B5A00C7C8B9 /* Debug */,
+				C5D4CBEC1A840B5A00C7C8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5D4CBED1A840B5A00C7C8B9 /* Build configuration list for PBXNativeTarget "Angle finderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D4CBEE1A840B5A00C7C8B9 /* Debug */,
+				C5D4CBEF1A840B5A00C7C8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D4CBC31A840B5A00C7C8B9 /* Project object */;
+}
