@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3F86DF62-E456-4966-9ECD-8EB805717A54</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Angle finder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2C52F87FEA009F727B70165A1A6F4361EDAC4FF3</key>
+		<string>https://github.com/MoritzGloesslein/AngleFinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Angle finder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2C52F87FEA009F727B70165A1A6F4361EDAC4FF3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MoritzGloesslein/AngleFinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2C52F87FEA009F727B70165A1A6F4361EDAC4FF3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2C52F87FEA009F727B70165A1A6F4361EDAC4FF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Angle%20finder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
